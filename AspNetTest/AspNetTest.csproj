@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A simple test tool for testing AspNetCore.</Description>
+    <Authors>zmjack</Authors>
+    <Version>0.0.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright © nstandard.net 2021</Copyright>
+    <PackageProjectUrl>https://github.com/zmjack/AspNetTest</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zmjack/AspNetTest</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>AspNetCore Test</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
